@@ -19,7 +19,7 @@ const data = [
     id: "2",
     title: "Music Player",
     desc: "Created an interactive music player with album art display and custom playlists.",
-    img: "/volna.jpg",
+    img: "/Volna.jpg",
   },
   {
     id: "3",
