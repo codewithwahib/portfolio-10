@@ -4,13 +4,13 @@
 
 @layer base {
     body {
-        color: #add8e6; /* Change text color to light blue */
-        background-color: #000000; /* Black background */
+        color: #7689de; /* Change text color to light blue */
+        background-color: #a9dce3; /* Black background */
     }
 }
 
 @layer components {
     .menuLink {
-        @apply cursor-pointer hover:text-[#add8e6]; /* Change hover text color to light blue */
+        @apply cursor-pointer hover:text-[#000000]; /* Change hover text color to light blue */
     }
 }

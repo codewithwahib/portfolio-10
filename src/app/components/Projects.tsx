@@ -5,27 +5,27 @@ import Card from './Card'; // Keep this import, but remove the redefined Card
 const data = [
   {
     id: "0",
-    title: "E-commerce Website",
-    desc: "Online store with user-friendly design, fast loading times, and real-time inventory updates.",
-    img: "/ecom.jpg",
+    title: "Weather Application ",
+    desc: " Weather Application shows current weather and forecasts using data from a weather API.",
+    img: "/image.png",
   },
   {
     id: "1",
-    title: "Food Website",
-    desc: "Built a modern food site with interactive recipes and easy navigation.",
-    img: "/food.jpg",
+    title: "Live Streaming Application",
+    desc: "A Live Streaming Application allows users to broadcast or watch live video content in real-time over the internet.",
+    img: "/download.jpeg",
   },
   {
     id: "2",
-    title: "Music Player",
-    desc: "Created an interactive music player with album art display and custom playlists.",
-    img: "/volna.jpg",
+    title: " Task Managment Application",
+    desc: "A Task Management Application helps users organize and track tasks, set deadlines, and manage projects efficiently.",
+    img: "/task.png",
   },
   {
     id: "3",
-    title: "Resume Builder",
-    desc: "Designed a user-friendly resume builder featuring guided prompts and formatting options.",
-    img: "/resume.jpg",
+    title: "Blog Website",
+    desc: "A Blog Website allows users to publish, read, and interact with articles or posts on various topics, often featuring comments and categories.",
+    img: "/blog.png",
   },
 ];
 
@@ -40,7 +40,7 @@ const Projects = () => {
             title={el.title}
             desc={el.desc}
             img={el.img}
-            className="outline-none hover:outline-[#add8e6] hover:outline-2 transition-all duration-300 ease-in-out" // Hover outline on the card
+            className="hover:outline-[#7689de] hover:outline-5 transition-all duration-300 ease-in-out" // Changed outline color to black
           />
         ))}
       </div>
