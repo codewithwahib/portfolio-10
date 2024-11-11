@@ -17,9 +17,9 @@ const data = [
   },
   {
     id: "2",
-    title: " Task Managment Application",
-    desc: "A Task Management Application helps users organize and track tasks, set deadlines, and manage projects efficiently.",
-    img: "/task.png",
+    title: "Music Player",
+    desc: "Created an interactive music player with album art display and custom playlists.",
+    img: "/volna.jpg",
   },
   {
     id: "3",
