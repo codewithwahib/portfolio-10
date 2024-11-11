@@ -13,7 +13,7 @@ const Contact = () => {
                 Send me a message and I wil try to respond soon.
             </p>
             <div className='flex gap-3 items-center' data-aos="zoom-in-left">
-            <MdAlternateEmail size={30} /> hassanjaffer043@gmail.com
+            <MdAlternateEmail size={30} /> wahibjaffer043@gmail.com
             </div>
             <div className='flex gap-3 items-center' data-aos="zoom-in-left">
             <BiPhoneCall  size={30} /> 03XX-XXXXXXX
@@ -24,23 +24,23 @@ const Contact = () => {
             <div className='flex flex-col gap-1' data-aos="zoom-in-left">
                 <label htmlFor="name">Name</label>
                <input type="text"
-               className='h-[40px] bg-transparent border border-accent' 
+               className='h-[40px] bg-transparent border border-black' 
                id='name'/>
             </div>
             <div className='flex flex-col gap-1' data-aos="zoom-in-left">
                 <label htmlFor="email">Email</label>
                <input type="text"
-               className='h-[40px] bg-transparent border border-accent' 
+               className='h-[40px] bg-transparent border border-black' 
                id='email'/>
             </div>
             <div className='flex flex-col gap-1' data-aos="zoom-in-left">
                 <label htmlFor="msg">Message</label>
                <textarea 
-               className='bg-transparent border border-accent' 
+               className='bg-transparent border border-black' 
                id='msg' rows={8}>
                </textarea>
             </div>
-            <button className='bg-accent p-2 px-6' data-aos="zoom-in-left">Send</button>
+            <button className='bg-black p-2 px-6' data-aos="zoom-in-left">Send</button>
         </div>
       </div>
     </div>
