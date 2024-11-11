@@ -6,7 +6,7 @@ const Hero = () => {
     <div
       id="hero"
       className="min-h-screen bg-no-repeat bg-[url(/profile.jpg)] bg-cover"
-      style={{ backgroundSize: '35%', backgroundPosition: 'left 100px top 75px' }}
+      style={{ backgroundSize: '35%', backgroundPosition: 'left 100px top 150px' }}
     >
       <Navbar />
       <div className="container grid lg:grid-cols-2 h-[calc(100vh-60px)]">
